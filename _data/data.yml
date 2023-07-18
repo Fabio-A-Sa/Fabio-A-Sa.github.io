@@ -1,16 +1,12 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
-
 sidebar:
-    position: left # position of the sidebar : left or right
-    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    position: left 
+    about: False 
+    education: True
 
     # Profile information
     name: Fábio Sá
     tagline: 1st year student of the Master in Informatics and Computing Engineering @ FEUP 
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: profile.png
 
     # Sidebar links
     email: up202007658@edu.fe.up.pt
@@ -37,8 +33,12 @@ education:
       - degree: BSc in Informatics and Computing Engineering
         university: Faculty of Engineering of University of Porto, Portugal
         time: September 2020 - July 2023
+      - degree: Ensino Secundário
+        university: Escola Secundária Henrique Medina, Esposende, Braga, Portugal
+        time: September 2017 - July 2020
 
 experiences:
+
     title: Experiences
     info:
 
@@ -48,7 +48,7 @@ experiences:
         details: |
           I will continue to support students who will move on to the 3rd year, this time in the <a href="https://sigarra.up.pt/feup/pt/ucurr_geral.ficha_uc_view?pv_ocorrencia_id=501685">Laboratory of Databases and Web Applications</a> (LBAW). This time I'll handle all the classes and all the students. It will certainly be another fun semester. My tasks:
           - Technical support for students, inside and outside the classroom;
-          - organize an extra weekly class, TBD
+          - Organize an weekly class, TBD
           - Review LBAW Project Template and Documentation
 
       - role: QA Automation Summer Internship
@@ -66,59 +66,64 @@ experiences:
             - <a href="https://github.com/Fabio-A-Sa/Y2S2-LabComputadores" >LCOM Unofficial Documentation</a>
 
       - role: Semana Profissão Engenheiro 2022
-        time: February 2023
+        time: February 2022
         company: Faculty of Engineering of University of Porto (FEUP), Porto
         details: |
           As part of the "Semana Profissão Engenheiro 2022", I was invited to present an area of <a href="https://sigarra.up.pt/feup/pt/ucurr_geral.ficha_uc_view?pv_ocorrencia_id=484407">Software Design and Testing</a> over two days of activities by the Faculty and in numerous lectures lasting 30 to 45 minutes.
             - <a href="https://github.com/Fabio-A-Sa/Y2S1-LabTesteSoftware/tree/main/SPE%20-%20Semana%20Profissão%20Engenheiro">Presentation</a>
+
 projects:
     title: Projects
     intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: OnlyFEUP
+        link: "https://github.com/Fabio-A-Sa/Y3S1-LabDBWeb/tree/main/Project"
+        tagline: "OnlyFEUP is a social network designed for FEUP students"
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: Uni++
+        link: "https://github.com/Fabio-A-Sa/Y2S2-SoftwareEngineer/tree/main/Project"
+        tagline: "Uni++ is an extension of the well-known UNI application, created through agile processes and software engineering metrics"
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: PTransfer
+        link: "https://github.com/Fabio-A-Sa/Y3S1-RedesComputadores/tree/main/Project1"
+        tagline: "Data connection protocol for transferring files between two computers"
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: JmmCompiler
+        link: "https://github.com/Fabio-A-Sa/Y3S2-Compiladores/tree/main/Project/CheckpointFinal"
+        tagline: "A simple but complete Java Minus Minus Compiler"
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: CohesionFree
+        link: "https://github.com/Fabio-A-Sa/Y3S2-InteligenciaArtificial/tree/main/Project%201"
+        tagline: "A board game implemented with several artificial intelligence search algorithms"
+
+      - title: AirED
+        link: "https://github.com/Fabio-A-Sa/Y2S1-AlgoritmosEstruturasDeDados/tree/main/Project%201"
+        tagline: "Airline Database Management System in C++ using several datastructures"
+
+      - title: STCP++
+        link: "https://github.com/Fabio-A-Sa/Y2S1-AlgoritmosEstruturasDeDados/tree/main/Project%202"
+        tagline: "A system capable of providing help to those who want to use the STCP network to move around, such as a Google Maps, through Algorithms that manipulate Graphs"
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: Python
+        level: 90%
 
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
+      - name: PHP
         level: 95%
 
-      - name: Ruby on Rails
+      - name: SQL
+        level: 95%
+
+      - name: HTML5 & CSS
+        level: 80%
+
+      - name: Javascript
+        level: 90%
+
+      - name: C / C++
         level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
-
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
