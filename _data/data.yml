@@ -9,7 +9,7 @@ sidebar:
     avatar: profile.png
 
     # Sidebar links
-    email: up202007658@edu.fe.up.pt
+    email: up202007658@up.pt
     linkedin: fabio-a-sa
     github: Fabio-A-Sa
     pdf: ../assets/cv-sep-2023.pdf
@@ -42,21 +42,24 @@ experiences:
     title: Experiences
     info:
 
+      - role: Associate QA Automation Engineer
+        time: September 2023 - Now
+        company: Sky, Lisbon & Aveiro
+        details: |
+          Test cases automation for <a href="https://peacocktv.com" >Peacock UK</a>, <a href="https://skyshowtime.com" >SkyShowtime</a> and <a href="https://showmax.com" >Showmax</a> Web products. Web Release Team member.
+
       - role: Teaching Assistant - LBAW
         time: September 2023 - January 2024
         company: Faculty of Engineering of University of Porto (FEUP), Porto
         details: |
-          I will continue to support students who will move on to the 3rd year, this time in the <a href="https://sigarra.up.pt/feup/pt/ucurr_geral.ficha_uc_view?pv_ocorrencia_id=501685">Laboratory of Databases and Web Applications</a> (LBAW). This time I'll handle all the classes and all the students. It will certainly be another fun semester. My tasks:
-          - Technical support for students, inside and outside the classroom;
-          - Organize an weekly class, TBD
-          - Review LBAW Project Template and Documentation
+          Help students in <a href="https://sigarra.up.pt/feup/pt/ucurr_geral.ficha_uc_view?pv_ocorrencia_id=501685">Laboratory of Databases and Web Applications</a> (LBAW). Technical support for students, inside and outside the classroom, organize an weekly class, review LBAW Project Template and Documentation.
 
       - role: QA Automation Summer Internship
         time: July 2023 - September 2023
         company: Sky, Lisbon & Aveiro
         details: |
-          - Migration of tests between frameworks for <a href="https://www.peacocktv.com/">Sky UK's Peacock</a> service;
-          - Automate Peacock tests on multiple devices;
+          - Creation of a Sky Web Team tool to analyze test coverage evolution, automated and non-automated tests. 
+          - Automate <a href="https://peacocktv.com" >Peacock UK</a> and <a href="https://skyshowtime.com" >SkyShowtime</a> tests on multiple browsers;
 
       - role: Teaching Assistant - LCOM
         time: February 2023 - July 2023
